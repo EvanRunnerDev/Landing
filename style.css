@@ -139,3 +139,20 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.memeorythingcontainerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagethingygalerytextitem {
+    transform: translateY(30px);
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+                 0 0 16px rgba(255, 255, 255, 0.6);
+
+    font-weight: bolder;
+}
