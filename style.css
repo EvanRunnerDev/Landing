@@ -45,6 +45,10 @@ header {
     animation: ambientGlow 3s infinite ease-in-out;
 }
 
+.single-thingy {
+    text-align: center;
+}
+
 .cum {
     color: white;
     font-size: 52px;
@@ -86,7 +90,6 @@ header {
     background-color: white;
     overflow: hidden;
 
-
 }
 
 
@@ -108,4 +111,31 @@ header {
     width: 64px;
     height: auto;
     margin: 15px;
+}
+
+
+
+.imagegallerymemory {
+    background-color: #2a2e35;
+    border-top: #3b82f6 5px solid;
+    border-bottom: #3b82f6 5px solid;
+    padding: 15px;
+    border-radius: 8px;
+    height: auto;
+    width: 400px;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+
+}
+
+.imagegallerycontainer {
+    width: 100vw;
+    min-height: 280px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
